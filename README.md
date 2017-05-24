@@ -25,5 +25,5 @@ X86PlatformShim loading -- Yes
 AppleGraphicsPowerManagement loading -- Yes
 
 # Demo
-![information]()
-![power]()
+![information](https://raw.githubusercontent.com/liaobinbin/hackintosh/master/img/information.png)
+![power](https://raw.githubusercontent.com/liaobinbin/hackintosh/master/img/power.png)
