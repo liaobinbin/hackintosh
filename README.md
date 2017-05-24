@@ -11,9 +11,19 @@
 4. Kexts
 # Information
 Nice DSDT file, loading AppleLPC.kext perfect.
+
 Sound card driver perfect.
+
 Sleep and wake up perfect work.
+
 Cpu five gear frequency conversion 8 34 36 37 38
+
 X86PlatformPlugin loading -- Yes
+
 X86PlatformShim loading -- Yes
+
 AppleGraphicsPowerManagement loading -- Yes
+
+# Demo
+![information]()
+![power]()
