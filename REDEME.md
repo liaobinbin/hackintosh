@@ -1,9 +1,9 @@
 # Hackintosh Configure
-Cpu: E3-1231v3 3.4Ghz
-MainBorad: ASUS B85 Pro Gamer
-Ethernet Card: Intel I217v
-Audio: ALC 1150
-Graphics: GTX 660
+- Cpu: E3-1231v3 3.4Ghz
+- MainBorad: ASUS B85 Pro Gamer
+- Ethernet Card: Intel I217v
+- Audio: ALC 1150
+- Graphics: GTX 660
 # Include File
 1. SSDT
 2. DSDT
