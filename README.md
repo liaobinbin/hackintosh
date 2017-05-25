@@ -1,3 +1,5 @@
+# Known Issues
+Long hours of sleep, such as the whole night, have a certain chance of wake up.
 # Hackintosh Configure
 - Cpu: E3-1231v3 3.4Ghz
 - MainBorad: ASUS B85 Pro Gamer
