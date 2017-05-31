@@ -66,7 +66,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -xcpm kext-dev-mode=1</string>
+		<string>-v dart=0 -xcpm kext-dev-mode=1</string>
+		<key>CustomLogo</key>
+		<string>Apple</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -78,7 +80,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>1</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -101,12 +103,8 @@
 	<dict>
 		<key>Audio</key>
 		<dict>
-			<key>AFGLowPowerState</key>
-			<true/>
 			<key>Inject</key>
-			<string>1</string>
-			<key>ResetHDA</key>
-			<true/>
+			<string>7</string>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -157,7 +155,7 @@
 		<key>AppleRTC</key>
 		<true/>
 		<key>AsusAICPUPM</key>
-		<true/>
+		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>KernelCpu</key>
@@ -170,38 +168,6 @@
 		<false/>
 		<key>KextsToPatch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>t1-10.9-10.10-AppleHDA/Resources/xml&gt;zml</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				eG1sLnps
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				em1sLnps
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>t1-10.9-10.12-AppleHDA/Realtek ALC1150</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				ixnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAnsEA==
-				</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>usb3.0</string>
@@ -227,9 +193,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>C02LGE6UF8JC12345</string>
+		<string>C02LGE6UF8JCFDSE6</string>
 		<key>ROM</key>
-		<string>0c4de974191e</string>
+		<string>08626648bf3e</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -243,6 +209,8 @@
 		<string>Mac-27ADBB7B4CEE8E61</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02LGE6UF8JCFDSE6</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>ChassisAssetTag</key>
@@ -258,16 +226,20 @@
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
-		<false/>
+		<true/>
 		<key>ProductName</key>
 		<string>iMac14,2</string>
 		<key>SerialNumber</key>
 		<string>C02LGE6UF8JC</string>
+		<key>SmUUID</key>
+		<string>00816A50-DAD7-DD11-BD60-08626648BF3E</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>00816A50-DAD7-DD11-BD60-08626648BF3E</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

@@ -61,7 +61,7 @@
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>as.vit9696.Lilu</key>
-		<string>1.1.0</string>
+		<string>1.1.1</string>
 		<key>as.vit9696.PinConfigs</key>
 		<string>1.0.0</string>
 		<key>com.apple.kpi.bsd</key>
